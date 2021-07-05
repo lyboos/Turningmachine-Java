@@ -1,0 +1,80 @@
+#Q = {init,final_state,write}
+#S = {a,b,c,d,e,f,g,h,i,j,k,l,m,n,0,1,2,3,4,5,6,7,8,9}
+#G = {_,a,b,c,d,e,f,g,h,i,j,k,l,m,n,0,1,2,3,4,5,6,7,8,9}
+#F = {final_state}
+#q0 = init
+#B = _
+#N = 2
+#D init 9_ _9 rr write
+#D init 8_ _8 rr write
+#D init 7_ _7 rr write
+#D init 6_ _6 rr write
+#D init 5_ _5 rr write
+#D init 4_ _4 rr write
+#D init 3_ _3 rr write
+#D init 2_ _2 rr write
+#D init 1_ _1 rr write
+#D init 0_ _0 rr write
+#D init n_ _n rr write
+#D init m_ _m rr write
+#D init l_ _l rr write
+#D init k_ _k rr write
+#D init j_ _j rr write
+#D init i_ _i rr write
+#D init h_ _h rr write
+#D init g_ _g rr write
+#D init f_ _f rr write
+#D init e_ _e rr write
+#D init d_ _d rr write
+#D init c_ _c rr write
+#D init b_ _b rr write
+#D init a_ _a rr write
+#D write 7_ _7 *l write
+#D write 3_ _3 *l write
+#D write m_ _m *l write
+#D write i_ _i *l write
+#D write e_ _e *l write
+#D write a_ _a *l write
+#D write 8_ _8 *l write
+#D write 4_ _4 *l write
+#D write 0_ _0 *l write
+#D write n_ _n *l write
+#D write _0 0_ lr write
+#D write _1 1_ lr write
+#D write _2 2_ lr write
+#D write _3 3_ lr write
+#D write j_ _j *l write
+#D write _4 4_ lr write
+#D write _5 5_ lr write
+#D write _6 6_ lr write
+#D write _7 7_ lr write
+#D write f_ _f *l write
+#D write _8 8_ lr write
+#D write _9 9_ lr write
+#D write b_ _b *l write
+#D write 9_ _9 *l write
+#D write 5_ _5 *l write
+#D write 1_ _1 *l write
+#D write k_ _k *l write
+#D write g_ _g *l write
+#D write c_ _c *l write
+#D write __ __ ** final_state
+#D write _a a_ lr write
+#D write _b b_ lr write
+#D write _c c_ lr write
+#D write _d d_ lr write
+#D write _e e_ lr write
+#D write _f f_ lr write
+#D write _g g_ lr write
+#D write 6_ _6 *l write
+#D write _h h_ lr write
+#D write _i i_ lr write
+#D write _j j_ lr write
+#D write _k k_ lr write
+#D write 2_ _2 *l write
+#D write _l l_ lr write
+#D write _m m_ lr write
+#D write _n n_ lr write
+#D write l_ _l *l write
+#D write h_ _h *l write
+#D write d_ _d *l write
